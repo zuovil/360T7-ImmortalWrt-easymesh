@@ -16,7 +16,7 @@
 #sed -i 's@coolsnowwolf/packages@P3TERX/packages@' feeds.conf.default
 
 #添加easymesh
-echo 'src-git luci-app-easymesh https://github.com/shuishihan/easymesh.git' >> feeds.conf.default
+#echo 'src-git luci-app-easymesh https://github.com/shuishihan/easymesh.git' >> feeds.conf.default
 
 #sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 
