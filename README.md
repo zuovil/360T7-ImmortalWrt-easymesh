@@ -21,8 +21,8 @@ Auto build OpenWrt firmware for 360T7 via GitHub Actions
 - wake-on-lan
 - easymesh
 
-fork自[url]https://github.com/sagehou/360T7-ImmortalWrt[/url]
-easymesh插件加入编译参考了[url]https://github.com/shuishihan/Actions-rax3000m-emmc[/url]的配置
+fork自[url]https://github.com/sagehou/360T7-ImmortalWrt [/url]
+easymesh插件加入编译参考了[url]https://github.com/shuishihan/Actions-rax3000m-emmc [/url]的配置
 适用于360T7
 刷写固件后可能有点小BUG，easymesh插件没有显示，可能需要手动重装
 解包步骤：请使用压缩软件打开sysupgrade.bin系统镜像，解压出root文件，再使用终端运行./sqfs_for_win.exe root（sqfs_for_win.exe网上搜一下就有，root为root对应的文件路径，这里简写了，取决于解压位置）。解压完成后sqfs_for_win.exe
