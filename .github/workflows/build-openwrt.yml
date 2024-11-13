@@ -78,7 +78,6 @@ jobs:
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --global user.name "github-actions[bot]"
         ./scripts/feeds update -a && ./scripts/feeds install -a
-        mkdir -p /workdir/openwrt/package/feeds/luci/luci-app-easymesh
         git clone  https://github.com/shuishihan/luci-app-easymesh.git package/feeds/luci/luci-app-easymesh
 
     - name: Load custom configuration
