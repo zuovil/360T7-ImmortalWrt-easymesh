@@ -72,12 +72,12 @@ jobs:
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P1_SH
 
-    - name: Update feeds
-      run: cd openwrt && ./scripts/feeds update -a
-
-    - name: Install feeds
+    - name: Update feeds && Install feeds
       run: |
-        cd openwrt && ./scripts/feeds install -a
+        cd openwrt
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+        ./scripts/feeds update -a && ./scripts/feeds install -a
         git clone  https://github.com/shuishihan/luci-app-easymesh.git package/feeds/luci/luci-app-easymesh
 
     - name: Load custom configuration
