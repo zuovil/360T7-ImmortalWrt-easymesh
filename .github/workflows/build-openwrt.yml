@@ -76,9 +76,9 @@ jobs:
       run: cd openwrt && ./scripts/feeds update -a
 
     - name: Install feeds
-      run:|
-      cd openwrt && ./scripts/feeds install -a
-      git clone  https://github.com/shuishihan/luci-app-easymesh.git package/feeds/luci/luci-app-easymesh
+      run: |
+        cd openwrt && ./scripts/feeds install -a
+        git clone  https://github.com/shuishihan/luci-app-easymesh.git package/feeds/luci/luci-app-easymesh
 
     - name: Load custom configuration
       run: |
