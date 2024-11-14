@@ -34,5 +34,5 @@ easymesh插件加入编译参考了[shuishihan](https://github.com/shuishihan/Ac
 解包步骤：请使用压缩软件打开sysupgrade.bin系统镜像，解压出root文件，再使用终端运行./sqfs_for_win.exe root（sqfs_for_win.exe网上搜一下就有，root为root对应的文件路径，这里简写了，取决于解压位置）。解压完成后sqfs_for_win.exe
 所在文件夹下面多出来一个squashfs-root文件夹，里面就是解压的一系列文件。
 
-手动安装步骤：打开squashfs-root文件夹，在windows文件管理器搜索easymesh将这些文件依次根据对应的目录使用winscp复制进路由器对应的目录，文件权限设置为755。然后仿照[easymesh编译文件](https://github.com/shuishihan/luci-app-easymesh/blob/master/Makefile)在/usr/lib/opkg/status追加对应的安装信息。最后远程连接终端输入rm -rf /tmp/luci-*删除缓存，重建luci菜单目录，浏览器清空缓存重进页面就能看到了
+手动安装步骤：打开squashfs-root文件夹，在windows文件管理器搜索easymesh将这些文件依次根据对应的目录使用winscp复制进路由器对应的目录，文件权限设置为755。然后根据[easymesh编译文件](https://github.com/shuishihan/luci-app-easymesh/blob/master/Makefile)在/usr/lib/opkg/status追加对应的安装信息。最后远程连接终端输入rm -rf /tmp/luci-*删除缓存，重建luci菜单目录，浏览器清空缓存重进页面就能看到了
 
