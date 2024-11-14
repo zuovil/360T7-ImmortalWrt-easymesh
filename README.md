@@ -38,5 +38,15 @@ easymesh插件加入编译参考了[shuishihan](https://github.com/shuishihan/Ac
 
 上面的内容描述有误，就当了解一下知识了
 
-在github的release下载这四个文件kmod-cfg80211_5.4.284+5.15.92-1-1_aarch64_cortex-a53.ipk  kmod-lib-crc16_5.4.284-1_aarch64_cortex-a53.ipk  kmod-batman-adv_5.4.284+2021.1-11_aarch64_cortex-a53.ipk  luci-app-easymesh_2.0_all.ipk 并依此安装，前面三个文件是前置依赖，easymesh 需要这三个依赖才能顺利完成安装。安装完成清空浏览器缓存刷新页面后在菜单网络那一栏可以找到
+在github的release下载这四个文件
+
+kmod-cfg80211_5.4.284+5.15.92-1-1_aarch64_cortex-a53.ipk
+
+kmod-lib-crc16_5.4.284-1_aarch64_cortex-a53.ipk
+
+kmod-batman-adv_5.4.284+2021.1-11_aarch64_cortex-a53.ipk
+
+luci-app-easymesh_2.0_all.ipk 
+
+依此安装，前面三个文件是前置依赖，easymesh 需要这三个依赖才能顺利完成安装。安装完成清空浏览器缓存刷新页面后在菜单网络那一栏可以找到
 
