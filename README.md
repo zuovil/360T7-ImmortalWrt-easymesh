@@ -24,6 +24,7 @@ Auto build OpenWrt firmware for 360T7 via GitHub Actions
 fork自[sagehou](https://github.com/sagehou/360T7-ImmortalWrt)
 
 easymesh插件加入编译参考了[shuishihan](https://github.com/shuishihan/Actions-rax3000m-emmc)的配置
+[easymesh插件使用说明](https://www.right.com.cn/forum/thread-4839303-1-1.html)
 
 适用于360T7 ARMv8 Processor rev 4 (v8l) x 2 mediatek/mt7981 ImmortalWrt 21.02-SNAPSHOT r20648-fa0b7600f5 / LuCI openwrt-21.02 branch git-23.098.38725-847bd6b
 
